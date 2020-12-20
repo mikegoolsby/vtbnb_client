@@ -7,7 +7,8 @@ const useStyles = makeStyles({
     fontFamily: [
       'Yanone Kaffeesatz',
       'sans-serif',
-    ].join(',')
+    ].join(','),
+    fontWeight: 300
   },
 });
 
