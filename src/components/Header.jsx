@@ -73,6 +73,7 @@ const Header = props  => {
               >
                 <MenuItem onClick={() => handleMenuClick('/')}>Home</MenuItem>
                 <MenuItem onClick={() => handleMenuClick('/rules')}>House Rules</MenuItem>
+                <MenuItem onClick={() => handleMenuClick('/map')}>Be a Local</MenuItem>
               </Menu>
             </div>
         </Toolbar>
