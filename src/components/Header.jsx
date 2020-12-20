@@ -18,6 +18,12 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+    fontWeight: 700,
+    fontSize: 30,
+    fontFamily: [
+      'Dancing Script',
+      'cursive',
+    ].join(',')
   },
   navBar: {
     background: '#303C6C'
