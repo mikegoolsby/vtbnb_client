@@ -42,7 +42,7 @@ const MyMapComponent = compose(
     </Grid>
 )
 
-class MyFancyComponent extends React.PureComponent {
+class vtMap extends React.PureComponent {
   state = {
     isMarkerShown: false,
   }
@@ -72,4 +72,4 @@ class MyFancyComponent extends React.PureComponent {
   }
 }
 
-export default MyFancyComponent;
+export default vtMap;

@@ -23,7 +23,8 @@ const Home = () => {
     justify="center"
     alignItems="center"
   >
-      <h1 className={classes.fontStyling}>This is the home page</h1>
+      <h1 className={classes.fontStyling}>Welcome to your home away from home!</h1>
+      <h3 className={classes.fontStyling}>Whether you're joining us for the first time, or you are a seasoned expert and have bragged about this place to your friends, we're so excited to have you.</h3>
   </Grid>
   )
 }

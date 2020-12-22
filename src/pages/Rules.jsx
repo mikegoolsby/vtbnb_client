@@ -8,7 +8,9 @@ const useStyles = makeStyles({
       'Yanone Kaffeesatz',
       'sans-serif',
     ].join(','),
-    fontWeight: 300
+    fontWeight: 300,
+    fontSize: 50,
+    listStyleType: 'square',
   },
 });
 
@@ -22,7 +24,20 @@ const Rules = () => {
     justify="center"
     alignItems="center"
   >
-      <h1 className={classes.fontStyling}>This is the rules page</h1>
+    <ul className={classes.fontStyling}>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+      <li>rule 1</li>
+    </ul>
   </Grid>)
 }
 
