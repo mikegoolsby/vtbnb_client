@@ -10,7 +10,8 @@ const useStyles = makeStyles({
         'Yanone Kaffeesatz',
         'sans-serif',
       ].join(','),
-      fontWeight: 300
+      fontWeight: 300,
+      fontSize: 30,
     },
 });
 

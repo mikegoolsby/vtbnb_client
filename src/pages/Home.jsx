@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-import { Grid } from '@material-ui/core'
+import { Grid, Box } from '@material-ui/core'
+import townhouse from '../images/townhouse.jpg'
 
 const useStyles = makeStyles({
   fontStyling: {
@@ -8,8 +9,16 @@ const useStyles = makeStyles({
       'Yanone Kaffeesatz',
       'sans-serif',
     ].join(','),
-    fontWeight: 300
+    fontWeight: 300,
+    fontSize: 30,
+    textAlign: 'center'
   },
+  image: {
+    height: 500,
+    width: 'auto',
+    borderStyle: 'solid',
+    borderColor: 'white'
+  }
 });
 
 const Home = () => {
@@ -22,9 +31,13 @@ const Home = () => {
     direction="column"
     justify="center"
     alignItems="center"
+    className={classes.fontStyling}
   >
-      <h1 className={classes.fontStyling}>Welcome to your home away from home!</h1>
-      <h3 className={classes.fontStyling}>Whether you're joining us for the first time, or you are a seasoned expert and have bragged about this place to your friends, we're so excited to have you.</h3>
+      <h1>Welcome to Vermont!</h1>
+      <Box borderRight={0}>
+        <img src={townhouse} className={classes.image}></img>
+      </Box>
+      <h3>Whether you're joining us for the first time, or you are a seasoned expert and have bragged about this place to your friends, we're so excited to have you.</h3>
   </Grid>
   )
 }

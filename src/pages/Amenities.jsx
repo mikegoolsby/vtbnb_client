@@ -10,16 +10,14 @@ const useStyles = makeStyles({
     ].join(','),
     fontWeight: 300,
     fontSize: 30,
-    listStyleType: 'square',
+    textAlign: 'center'
   },
 });
 
-
-const Rules = (props) => {
-
-  const {rules} = props
+const Amenities = () => {
 
   const classes = useStyles();
+
   return (
     <Grid
     container
@@ -28,13 +26,10 @@ const Rules = (props) => {
     alignItems="center"
     className={classes.fontStyling}
   >
-    <h1>House Rules:</h1>
-    <ul>
-      {rules.map((rules) => (
-        <li>{rules.body}</li>
-      ))}
-    </ul>
-  </Grid>)
+      <h1>Below are some amenities you'll find while staying with us:</h1>
+      <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum eligendi facere asperiores dicta tempore quo in mollitia quia, ex doloremque accusantium dolor nostrum tenetur unde aliquid eveniet pariatur doloribus rerum?</h3>
+  </Grid>
+  )
 }
 
-export default Rules;
+export default Amenities;
