@@ -12,6 +12,7 @@ const useStyles = makeStyles({
     ].join(','),
     fontWeight: 300,
     fontSize: 30,
+    padding: '8px'
   },
   root: {
       margin: 20,

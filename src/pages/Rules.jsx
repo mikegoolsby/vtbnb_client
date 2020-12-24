@@ -11,6 +11,10 @@ const useStyles = makeStyles({
     fontWeight: 300,
     fontSize: 30,
     listStyleType: 'square',
+    padding: '8px'
+  },
+  listSyling: {
+    listStyleType: 'square',
   },
 });
 
@@ -29,7 +33,7 @@ const Rules = (props) => {
     className={classes.fontStyling}
   >
     <h1>House Rules:</h1>
-    <ul>
+    <ul className={classes.listSyling}>
       {rules.map((rules) => (
         <li>{rules.body}</li>
       ))}

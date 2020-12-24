@@ -11,7 +11,8 @@ const useStyles = makeStyles({
     ].join(','),
     fontWeight: 300,
     fontSize: 30,
-    textAlign: 'center'
+    textAlign: 'center',
+    padding: '8px'
   },
   image: {
     height: 500,
@@ -35,7 +36,7 @@ const Home = () => {
   >
       <h1>Welcome to Vermont!</h1>
       <Box borderRight={0}>
-        <img src={townhouse} className={classes.image}></img>
+        <img src={townhouse} className={classes.image} alt="ski condo overlooking the mountains"></img>
       </Box>
       <h3>Whether you're joining us for the first time, or you are a seasoned expert and have bragged about this place to your friends, we're so excited to have you.</h3>
   </Grid>

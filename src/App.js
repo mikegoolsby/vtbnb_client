@@ -28,6 +28,7 @@ function App() {
       })
   }
 
+  // eslint-disable-next-line 
   React.useEffect(() => getRules(), []);
 
 

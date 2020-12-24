@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     ].join(',')
   },
   navBar: {
-    background: '#303C6C'
+    background: '#22223B'
   }
 }));
 
@@ -50,7 +50,7 @@ const Header = props  => {
       <AppBar position="static" className={classes.navBar}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Vermont Ski House
+            Escape to Mount Snow
           </Typography>
             <div>
             <IconButton edge="start" className={classes.menuButton} onClick={handleMenu} color="inherit" aria-label="menu">

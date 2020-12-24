@@ -1,19 +1,19 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
+// import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core'
 import { compose, withProps } from "recompose"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
-const useStyles = makeStyles({
-    fontStyling: {
-      fontFamily: [
-        'Yanone Kaffeesatz',
-        'sans-serif',
-      ].join(','),
-      fontWeight: 300,
-      fontSize: 30,
-    },
-});
+// const useStyles = makeStyles({
+//     fontStyling: {
+//       fontFamily: [
+//         'Yanone Kaffeesatz',
+//         'sans-serif',
+//       ].join(','),
+//       fontWeight: 300,
+//       fontSize: 30,
+//     },
+// });
 
 const { REACT_APP_GOOGLE_MAPS_API_KEY } = process.env
 

@@ -10,8 +10,16 @@ const useStyles = makeStyles({
     ].join(','),
     fontWeight: 300,
     fontSize: 30,
-    textAlign: 'center'
+    textAlign: 'center',
+    padding: '8px'
   },
+  listSyling: {
+    listStyleType: 'square',
+    textAlign: 'left'
+  },
+  ulStyling: {
+    // lineHeight: '18px'
+  }
 });
 
 const Amenities = () => {
@@ -27,7 +35,12 @@ const Amenities = () => {
     className={classes.fontStyling}
   >
       <h1>Below are some amenities you'll find while staying with us:</h1>
-      <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum eligendi facere asperiores dicta tempore quo in mollitia quia, ex doloremque accusantium dolor nostrum tenetur unde aliquid eveniet pariatur doloribus rerum?</h3>
+      <ul className={classes.listSyling}>
+        <li className={classes.ulStyling}>Mount Snow Skiing & Snowboarding 1.1 mi away!</li>
+        <li className={classes.ulStyling}>Clubhouse with indoor pool, exercise room, racquetball courts, basketball court, lounge area</li>
+        <li className={classes.ulStyling}>Free shuttle access to and from the mountain</li>
+        <li className={classes.ulStyling}>Boot and glove dryer in-unit</li>
+      </ul>
   </Grid>
   )
 }
