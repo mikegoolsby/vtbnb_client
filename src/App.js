@@ -14,7 +14,7 @@ import Rules from './pages/Rules'
 function App() {
 
   const { REACT_APP_BACKEND_URL } = process.env
-  const backendUrl = `${REACT_APP_BACKEND_URL}`
+  const backendUrl = `https://vtbnbapi.herokuapp.com/`
 
   const [rules, setRules] = React.useState([])
 
