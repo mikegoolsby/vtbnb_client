@@ -19,7 +19,10 @@ function App() {
   const [rules, setRules] = React.useState([])
 
   const getRules = () => {
-    fetch(backendUrl + "/rules")
+    fetch(backendUrl + "/rules", {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    })
       .then((response) => response.json())
       .then((data) => {
         console.log(data)
