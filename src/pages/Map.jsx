@@ -116,7 +116,7 @@ export default function App() {
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
       <MapWrapped
-        googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${REACT_APP_GOOGLE_MAPS_API_KEY}&v3.exp&libraries=geometry,drawing,places`}
+        googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyCD8QCD6vWccqGGOTNFTXR1m9EQB14FXdM&v3.exp&libraries=geometry,drawing,places`}
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `400px`, padding: `20px`, filter: `drop-shadow(0 0 0.75rem black)` }} />}
         mapElement={<div style={{ height: `100%`, width: `auto` }} />}
