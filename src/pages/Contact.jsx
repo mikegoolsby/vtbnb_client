@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core'
 import maintenance from '../images/maintenance.jpg'
 import bus from '../images/bus.jpg'
+import Footer from '../components/Footer'
+import emergency from '../images/emergency.jpg'
 
 const useStyles = makeStyles({
   fontStyling: {
@@ -81,6 +83,32 @@ const Contact = () => {
         </Button>
       </CardActions>
     </Card>
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          className={classes.media}
+          image={emergency}
+          title="emergency services"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2" className={classes.fontStyling}>
+            Police/Emergency Services
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p" className={classes.fontStyling}>
+              Ya know, just in case. For any emergencies, please dial 911.
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+      <CardActions>
+        <Button size="small" color="primary" href="tel:8024642020">
+          Call
+        </Button>
+        <Button size="small" color="primary" href="https://www.doververmont.com/police" target="_blank">
+          Visit
+        </Button>
+      </CardActions>
+    </Card>
+    <Footer/>
   </Grid>
   )
 }

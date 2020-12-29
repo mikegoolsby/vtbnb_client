@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core'
+import Footer from '../components/Footer';
 
 const useStyles = makeStyles({
   fontStyling: {
@@ -38,6 +39,7 @@ const Rules = (props) => {
         <li>{rules.body}</li>
       ))}
     </ul>
+    <Footer/>
   </Grid>)
 }
 

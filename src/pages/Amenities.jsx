@@ -1,6 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Grid } from '@material-ui/core'
+import Footer from '../components/Footer';
 
 const useStyles = makeStyles({
   fontStyling: {
@@ -41,6 +42,7 @@ const Amenities = () => {
         <li className={classes.ulStyling}>Free shuttle access to and from the mountain</li>
         <li className={classes.ulStyling}>Boot and glove dryer in-unit</li>
       </ul>
+      <Footer/>
   </Grid>
   )
 }

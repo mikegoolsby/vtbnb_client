@@ -1,7 +1,6 @@
 import React from 'react'
 // import Layout from '../src/components/Layout'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Footer from './components/Footer'
 import Header from './components/Header'
 import Amenities from './pages/Amenities'
 import Contact from './pages/Contact'
@@ -44,7 +43,7 @@ function App() {
         <Route exact from="/map" render={props => <Map {...props} />}/>
         <Route exact from="/contact" render={props => <Contact {...props}/>}/>
       </Switch>
-      <Footer/>
+      {/* <Footer/> */}
     </BrowserRouter>
     {/* <Drawer/> */}
     </>

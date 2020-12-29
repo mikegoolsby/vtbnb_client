@@ -1,0 +1,74 @@
+[
+    {
+    "name": "Sticky Fingers Bakery",
+    "type": "Restaurant",
+    "address": "210 Rt 100, Dover, VT 05356",
+    "lat": 42.94659393350077,
+    "lng": -72.86583269391701,
+    "id": 0
+    },
+    {
+    "name": "The West Dover Inn",
+    "type": "Restaurant",
+    "address": "108 Rt 100, Dover, VT 05356",
+    "lat": 42.93815957567218,
+    "lng": -72.85032315057678,
+    "id": 1
+    },
+    {
+    "name": "Valley View Saloon",
+    "type": "Restaurant",
+    "address": "131 Rt 100, Dover, VT 05356",
+    "lat": 42.93971988042015,
+    "lng": -72.85413587977767,
+    "id": 2
+    },
+    {
+    "name": "TC’s Restaurant",
+    "type": "Restaurant",
+    "address": "178 Rt 100, Dover, VT 05356",
+    "lat": 42.943689779619845,
+    "lng": -72.86100060809127,
+    "id": 3
+    },
+    {
+    "name": "Dover Forge Restaurant",
+    "type": "Restaurant",
+    "address": "183 Rt 100, Dover, VT 05356",
+    "lat": 42.944256647359914,
+    "lng": -72.86289126445261,
+    "id": 4
+    },
+    {
+    "name": "Deerhill Inn & Restaurant",
+    "type": "Restaurant",
+    "address": "14 Valley View Rd, Dover, VT 05356",
+    "lat": 42.93977494342775,
+    "lng": -72.84906940780897,
+    "id": 5
+    },
+    {
+    "name": "Two Tannery Road",
+    "type": "Restaurant",
+    "address": "2 Tannery Rd, Dover, VT 05356",
+    "lat": 42.954079712493936, 
+    "lng": -72.88350669390451,
+    "id": 6
+    },
+    {
+    "name": "Sawmill Bar & Table",
+    "type": "Restaurant",
+    "address": "1 Farm Rd, Dover, VT 05356",
+    "lat": 42.93710707199102,
+    "lng": -72.85075366892718,
+    "id": 7
+    },
+    {
+    "name": "The Last Chair",
+    "type": "Restaurant",
+    "address": "267 Rt 100, Dover, VT 05356",
+    "lat": 42.94994293557467,
+    "lng": -72.87500790609451,
+    "id": 8
+    }
+]
