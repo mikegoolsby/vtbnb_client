@@ -37,10 +37,10 @@ const Amenities = () => {
   >
       <h1>Below are some amenities you'll find while staying with us:</h1>
       <ul className={classes.listSyling}>
-        <li className={classes.ulStyling}>Mount Snow Skiing & Snowboarding 1.1 mi away!</li>
-        <li className={classes.ulStyling}>Clubhouse with indoor pool, exercise room, racquetball courts, basketball court, lounge area</li>
-        <li className={classes.ulStyling}>Free shuttle access to and from the mountain</li>
-        <li className={classes.ulStyling}>Boot and glove dryer in-unit</li>
+        <li className={classes.ulStyling}>Mount Snow Skiing & Snowboarding that you can see from your living room window!</li>
+        <li className={classes.ulStyling}>Clubhouse with indoor pool as well as tennis courts and a basketball court</li>
+        <li className={classes.ulStyling}>Free shuttle just steps away with access to and from the mountain</li>
+        <li className={classes.ulStyling}>Laundry access with attached game room all just down the hallway</li>
       </ul>
       <Footer/>
   </Grid>

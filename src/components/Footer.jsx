@@ -41,7 +41,7 @@ const Footer = () => {
                     <ListItemIcon>
                         <WifiIcon/>
                     </ListItemIcon>
-                    <ListItemText primary="WiFi Password: eatsleepski"/>
+                    <ListItemText primary="DownhillFromHere | niceflipkid!"/>
                 </ListItem>
             </List>
         </Grid>

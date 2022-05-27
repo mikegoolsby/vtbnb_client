@@ -50,7 +50,7 @@ const Header = props  => {
       <AppBar position="static" className={classes.navBar}>
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Escape to Mount Snow
+            Canyon Run Lodge
           </Typography>
             <div>
             <IconButton edge="start" className={classes.menuButton} onClick={handleMenu} color="inherit" aria-label="menu">
