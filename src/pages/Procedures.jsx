@@ -40,7 +40,7 @@ const Procedures = () => {
       <h1>Check-in & Check-out</h1>
       <p>The official Airbnb&#169; app will be your starting point for checking in. You'll ensure your stay is confirmed and communicate with us through that application.</p>
       <br/>
-      <p>The Escape to Mount Snow application&#169;, which is what you're currently using of course, is what we've provided to you free of charge. It contains resources, who to contact in case of various situations, and of course, the <WifiIcon/> password at the bottom of every screen.</p>
+      <p>The Escape to Mount Snow application&#169;, which is what you're currently using of course, is what we've provided to you free of charge. It contains resources, who to contact in case of various situations, and of course, the <WifiIcon/> network and password at the bottom of every screen.</p>
       <br/>
       <Card className={classes.root}>
       <CardActionArea>
