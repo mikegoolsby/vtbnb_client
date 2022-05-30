@@ -48,7 +48,7 @@ const Contact = () => {
             Maintenance
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" className={classes.fontStyling}>
-              Please call with any issues regarding heat, hot water, plumbing, etc.
+              Please call with any issues regarding heat, hot water, plumbing, etc. In case of lockout, please refer to the code given to you in the Airbnb app. If for some reason that still doesn't work, please contact as via the app.
           </Typography>
         </CardContent>
       </CardActionArea>

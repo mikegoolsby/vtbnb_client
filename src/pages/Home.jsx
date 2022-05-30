@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     padding: '8px'
   },
   image: {
-    height: 500,
+    height: 250,
     width: 'auto',
     borderStyle: 'solid',
     borderColor: 'white'

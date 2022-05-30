@@ -54,7 +54,7 @@ const Procedures = () => {
             Check-In & Day 1
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" className={classes.fontStyling}>
-              Check in using the official Airbnb&#169; app and then, once you're settled, hop on the Moover and get out on the slopes! Click below for transit information.
+              Check in using the official Airbnb&#169; app and then, once you're settled, hop on the Moover and get out on the slopes! The mover stops right outside between our building and the next building over. Click below for transit information.
           </Typography>
         </CardContent>
       </CardActionArea>
