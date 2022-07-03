@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     padding: '8px'
   },
   image: {
-    height: 500,
+    height: 250,
     width: 'auto',
     borderStyle: 'solid',
     borderColor: 'white'
@@ -40,6 +40,10 @@ const Home = () => {
         <img src={mtsnowdrone} className={classes.image} alt="aerial drone shot of mount snow in dover, vermont"></img>
       </Box>
       <h3>Whether you're joining us for the first time, or you are a seasoned expert and have bragged about this place to your friends, we're so excited to have you. Please use this app as your official guide to your stay! First up, the Wifi information. You'll find this at the bottom of every page, including this one. The network name is first, followed by the password.</h3>
+      <br></br>
+      <h3>
+        You'll find everything you'll need here; check-out procedures, simple house rules, eating recommendations, transportation information, and emergency numbers for maintenance issues. For anything that this site doesn't answer for you, please contact us via the Airbnb app.
+      </h3>
       <Footer/>
   </Grid>
   )

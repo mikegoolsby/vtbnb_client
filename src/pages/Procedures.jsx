@@ -38,10 +38,11 @@ const Procedures = () => {
     className={classes.fontStyling}
   >
       <h1>Check-in & Check-out</h1>
-      <p>The official Airbnb&#169; app will be your starting point for checking in. You'll ensure your stay is confirmed and communicate with us through that application.</p>
+      <p>The official Airbnb&#169; app will be your contact point for checking in and checking out, should you need it.</p>
       <br/>
-      <p>The Escape to Mount Snow application&#169;, which is what you're currently using of course, is what we've provided to you free of charge. It contains resources, who to contact in case of various situations, and of course, the <WifiIcon/> network and password at the bottom of every screen.</p>
+      <p>The Canyon Run Lodge&#169; guidebook, which is what you're currently using of course, is what we've provided to you free of charge. It contains resources, who to contact in case of various situations, and of course, the <WifiIcon/> network and password at the bottom of every screen.</p>
       <br/>
+      <p>When checking out, <b>please leave your used towels on the bathroom floor, and ensure all dirty dishes are placed in the dishwasher and the dishwasher starts.</b></p>
       <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
@@ -51,20 +52,20 @@ const Procedures = () => {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2" className={classes.fontStyling}>
-            Check-In & Day 1
+            Getting to & From Mount Snow
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" className={classes.fontStyling}>
-              Check in using the official Airbnb&#169; app and then, once you're settled, hop on the Moover and get out on the slopes! Click below for transit information.
+              Check in using the official Airbnb&#169; app and then, once you're settled, hop on the Moover and get out on the slopes! The mover stops right outside between our building and the next building over. Click below for transit information, including the SnowTree - SMV - Outlook MOOver route which will take you to and from the mountain.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" href="https://www.moover.com/routes-timetables/mount-snow" target="_blank">
+        <Button size="small" color="primary" href="https://www.moover.com/route/snowtree-smv-outlook/" target="_blank">
           Moover
         </Button>
-        <Button size="small" color="primary" href="https://www.airbnb.com/" target="_blank">
+        {/* <Button size="small" color="primary" href="https://www.airbnb.com/" target="_blank">
           Airbnb&#169;
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
       <Footer/>

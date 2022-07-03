@@ -8,12 +8,20 @@
     "id": 0
     },
     {
+    "name": "Pizzeria La Toscanella",
+    "type": "Restaurant",
+    "address": "148 Rt 100, Dover, VT 05356",
+    "lat": 42.942417302237324,
+    "lng": -72.8566840205384,
+    "id": 1
+    },
+    {
     "name": "The West Dover Inn",
     "type": "Restaurant",
     "address": "108 Rt 100, Dover, VT 05356",
     "lat": 42.93815957567218,
     "lng": -72.85032315057678,
-    "id": 1
+    "id": 2
     },
     {
     "name": "Valley View Saloon",
@@ -21,7 +29,7 @@
     "address": "131 Rt 100, Dover, VT 05356",
     "lat": 42.93971988042015,
     "lng": -72.85413587977767,
-    "id": 2
+    "id": 3
     },
     {
     "name": "TC’s Restaurant",
@@ -29,7 +37,7 @@
     "address": "178 Rt 100, Dover, VT 05356",
     "lat": 42.943689779619845,
     "lng": -72.86100060809127,
-    "id": 3
+    "id": 4
     },
     {
     "name": "Dover Forge Restaurant",
@@ -37,14 +45,6 @@
     "address": "183 Rt 100, Dover, VT 05356",
     "lat": 42.944256647359914,
     "lng": -72.86289126445261,
-    "id": 4
-    },
-    {
-    "name": "Deerhill Inn & Restaurant",
-    "type": "Restaurant",
-    "address": "14 Valley View Rd, Dover, VT 05356",
-    "lat": 42.93977494342775,
-    "lng": -72.84906940780897,
     "id": 5
     },
     {
@@ -70,5 +70,13 @@
     "lat": 42.94994293557467,
     "lng": -72.87500790609451,
     "id": 8
+    },
+    {
+    "name":"Shaw's (Grocery)",
+    "type":"Grocery",
+    "address":"97 E Main St, Wilmington, VT 05363",
+    "lat":42.86484017842247, 
+    "lng":-72.86297042231715,
+    "id":9
     }
 ]

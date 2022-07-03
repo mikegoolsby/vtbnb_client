@@ -28,6 +28,16 @@ const useStyles = makeStyles({
   pos: {
     marginBottom: 12,
   },
+  fontStyling: {
+    fontFamily: [
+      'Yanone Kaffeesatz',
+      'sans-serif',
+    ].join(','),
+    fontWeight: 300,
+    fontSize: 30,
+    listStyleType: 'square',
+    padding: '8px'
+  }
 });
 
 const { REACT_APP_GOOGLE_MAPS_API_KEY } = process.env
@@ -50,12 +60,14 @@ function Map() {
   }, []);
 
   return (
+    
     <Grid
     container
     direction="column"
     justify="center"
     alignItems="center"
     >
+      <br></br>
       <GoogleMap
         defaultZoom={12.25}
         defaultCenter={{ lat: 42.968489, lng: -72.888319 }}
