@@ -38,9 +38,9 @@ const Amenities = () => {
       <h1>Below are some amenities you'll find while staying with us:</h1>
       <ul className={classes.listSyling}>
         <li className={classes.ulStyling}>Mount Snow Skiing & Snowboarding that you can see from your living room window!</li>
-        <li className={classes.ulStyling}>Clubhouse with indoor pool as well as tennis courts and a basketball court</li>
+        <li className={classes.ulStyling}>Clubhouse with indoor pool as well as tennis courts and a basketball court. The pool code is provided to you via the Airbnb app</li>
         <li className={classes.ulStyling}>Free shuttle just steps away with access to and from the mountain</li>
-        <li className={classes.ulStyling}>Laundry access with attached game room all just down the hallway</li>
+        <li className={classes.ulStyling}>Laundry access with attached game room all just down the hallway (take a right down the hall, it will be on your first left). Washer machines cost $1.50 and dryers are $1.00, paid only in quarters</li>
       </ul>
       <Footer/>
   </Grid>
