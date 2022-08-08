@@ -78,5 +78,13 @@
     "lat":42.86484017842247, 
     "lng":-72.86297042231715,
     "id":9
+    },
+    {
+    "name":"Snow Mountain Market",
+    "type":"Grocery",
+    "address":"323 Rt 100, West Dover, VT 05356",
+    "lat:":42.955827484605, 
+    "lng":-72.8813516327542,
+    "id":10
     }
 ]

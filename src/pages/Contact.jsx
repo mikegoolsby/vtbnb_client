@@ -48,17 +48,17 @@ const Contact = () => {
             Maintenance
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p" className={classes.fontStyling}>
-              Please call with any issues regarding heat, hot water, plumbing, etc. The numbers are in the links below. In case of lockout, please refer to the code given to you in the Airbnb app. If for some reason that still doesn't work, please contact as via the app.
+              Please contact us via Airbnb or VRBO for any issues regarding heat, hot water, plumbing, condo access, etc. We will work with our local maintenance partners to resolve the issue as soon as possible.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" href="tel:802-266-2244">
+        {/* <Button size="small" color="primary" href="tel:802-266-2244">
           Business Hours Line (Mon-Fri, 9a-4:30p)
         </Button>
         <Button size="small" color="primary" href="tel:802-742-2244">
           After Hours Emergency Pager Line
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
     <Card className={classes.root}>
