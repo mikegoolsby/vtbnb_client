@@ -38,11 +38,21 @@ const Procedures = () => {
     className={classes.fontStyling}
   >
       <h1>Check-in & Check-out</h1>
-      <p>The official Airbnb&#169; app will be your contact point for checking in and checking out, should you need it.</p>
+      <p>The official Airbnb&#169; or VRBO&#169; app will be your contact point for checking in and checking out, should you need it. As a guest, you are given a unique door key code that will be provided to you via Airbnb or VRBO prior to your stay which will remain active for the duration of your stay.</p>
       <br/>
       <p>The Canyon Run Lodge&#169; guidebook, which is what you're currently using of course, is what we've provided to you free of charge. It contains resources, who to contact in case of various situations, and of course, the <WifiIcon/> network and password at the bottom of every screen.</p>
       <br/>
-      <p>When checking out, <b>please leave your used towels on the bathroom floor, and ensure all dirty dishes are placed in the dishwasher and the dishwasher starts.</b></p>
+      <ul><b>For check-out:</b>
+        <li>
+        leave all your used towels on the bathroom floor (it does not matter which bathroom)
+        </li>
+        <li>
+        ensure all dirty dishes are placed in the dishwasher and the dishwasher starts
+        </li>
+        <li>
+          ensure lights are turned off & all windows and doors are closed and locked
+        </li>
+      </ul>
       <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
