@@ -18,7 +18,7 @@ function App() {
 
   const [rules, setRules] = React.useState([])
 
-  const getRules = () => {
+  /* const getRules = () => {
     fetch(backendUrl + "/rules", {
       'Content-Type': 'application/json',
       'Accept': 'application/json'
@@ -28,10 +28,10 @@ function App() {
         console.log(data)
         setRules(data);
       })
-  }
+  } */
 
   // eslint-disable-next-line 
-  React.useEffect(() => getRules(), []);
+  // React.useEffect(() => getRules(), []);
 
 
   return (
