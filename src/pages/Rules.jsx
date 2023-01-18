@@ -35,9 +35,21 @@ const Rules = (props) => {
   >
     <h1>House Rules:</h1>
     <ul className={classes.listSyling}>
-      {rules.map((rules) => (
-        <li>{rules.body}</li>
-      ))}
+      <li>
+        Check-in is after 4:00PM, check-out is before 10:00AM.
+      </li>
+      <li>
+        No pets.
+      </li>
+      <li>
+        No parties or large events.
+      </li>
+      <li>
+        No smoking.
+      </li>
+      <li>
+        Respect our neighbors. Quiet hours are from 11:00PM to 7:00AM.
+      </li>
     </ul>
     <Footer/>
   </Grid>)

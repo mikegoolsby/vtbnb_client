@@ -50,7 +50,7 @@ const Procedures = () => {
         ensure all dirty dishes are placed in the dishwasher and the dishwasher starts
         </li>
         <li>
-          remove all trash & firewood ash and take to dumpster (located at the end of the parking lot, behind the tennis courts)
+          remove all trash & firewood ash and take to dumpster (located at the end of the parking lot behind the tennis courts)
         </li>
         <li>
           ensure lights are turned off & all windows and doors are closed and locked
